@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/jfreechart-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/jfreechart-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/extent/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/java-json.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/allure-testng-adaptor-1.2.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/winium-webdriver-0.1.0-1.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/system-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/ECLPGM/Jars/ngwebdriver/ngwebdriver-1.1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

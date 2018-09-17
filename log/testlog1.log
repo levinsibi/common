@@ -1,0 +1,4 @@
+2017-12-31 11:05:22,808 [main] INFO Youtube - clicked on object
+2018-08-05 11:42:00,121 [main] WARN log4j - This is warn message
+2018-08-05 11:42:00,139 [main] FATAL log4j - This is fatal message
+2018-08-05 11:42:00,139 [main] ERROR log4j - This is error message
