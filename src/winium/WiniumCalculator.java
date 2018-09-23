@@ -22,7 +22,7 @@ public class WiniumCalculator {
 		System.setProperty("webdriver.winium.driver.desktop", "D:\\winiumDriver\\Winium.Desktop.Driver.exe");
 		Runtime.getRuntime().exec("D:\\winiumDriver\\Winium.Desktop.Driver.exe");
 		DesktopOptions options=new DesktopOptions();
-		options.setDebugConnectToRunningApp(false);
+		options.setDebugConnectToRunningApp(true);//true-use already opened app ;false-launch app
 		options.setApplicationPath("C:/windows/system32/calc.exe");
 		//sFile file=new File("E:\\Winium\\Winium\\Winium.Desktop.Driver.exe");
 		WiniumDriver driver=new WiniumDriver(new URL("http://localhost:9999"),options);

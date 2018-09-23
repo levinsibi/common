@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class seleniumTest {
 
@@ -29,6 +30,7 @@ public class seleniumTest {
 			WebElement e=driver.findElement(By.xpath(e1));
 		jse=(JavascriptExecutor)driver;
 		jse.executeScript("arguments[0].setAttribute('style','background:yellow; border: 5px solid red;');", e);
+		 
 		foundflag=1;
 		}
 		catch(Exception ex)
