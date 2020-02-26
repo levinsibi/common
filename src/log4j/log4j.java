@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,11 +15,13 @@ public class log4j {
 		// TODO Auto-generated method stub
 		
 		Logger logger=Logger.getLogger("log4j");
+		//create a new file in mentioned path with below name and copy properties content
+		//http://learn-automation.com/how-to-create-log-files-in-selenium/.-sample content
 		PropertyConfigurator.configure("D:\\New folder\\Test\\log\\log4j.properties");
 		
-	/*System.setProperty("webdriver.chrome.driver", "G:\\chromedriver.exe");
-	WebDriver driver=new ChromeDriver();*/
-	WebDriver driver=new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", ".//chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	//WebDriver driver=new FirefoxDriver();
 	 
 	 
 	 String baseUrl = "http://www.google.com";

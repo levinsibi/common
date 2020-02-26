@@ -14,6 +14,7 @@ driver.get("https://www.facebook.com/");
 driver.manage().window().maximize();
 driver.findElement(By.xpath("//input[@id='email']")).sendKeys("sach@b.com");
 driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("pass1");
+System.out.println(driver.getTitle());
 }
 @Test(groups="retest")
 public static void test2()
@@ -23,6 +24,7 @@ driver.get("https://www.facebook.com/");
 driver.manage().window().maximize();
 driver.findElement(By.xpath("//input[@id='email']")).sendKeys("lev@b.com");
 driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("pass1");
+System.out.println(driver.getTitle());
 }
 
 }

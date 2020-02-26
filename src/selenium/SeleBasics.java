@@ -22,8 +22,11 @@ public class SeleBasics {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebElement e=driver.findElement(By.xpath(".//*[@name='q']"));
+		
+		
 		Actions act=new Actions(driver);
 		act.moveToElement(e).contextClick().perform();
+		
 		Robot robot=new Robot();
 		for(int i=0;i<3;i++)
 		{
